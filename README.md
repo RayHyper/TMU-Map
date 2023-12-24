@@ -30,6 +30,8 @@ Start the server
   npm run dev
 ```
 
+Go to Local: http://localhost:5173 to view
+
 
 ## Demo
 
