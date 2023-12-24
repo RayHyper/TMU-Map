@@ -53,9 +53,11 @@ nav{
     font-weight: 700;
     text-decoration: none;
     color:white;
+    padding-left: 10px;
 
 }
 .title:hover{
+     
      opacity: 0.9;
     color:#FBAF00;
 }
