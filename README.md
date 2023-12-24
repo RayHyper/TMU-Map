@@ -2,28 +2,20 @@
 # Explore TMU
 
 Find places to eat and study at!
-
-
-## Features
-
-- Light/dark mode toggle
-- Live previews
-- Fullscreen mode
-- Cross platform
-
+Navigate around TMU and explore!
 
 ## Run Locally
 
 Clone the project
 
 ```bash
-  git clone https://link-to-project
+  git clone https://github.com/RayHyper/TMU-Map.git
 ```
 
 Go to the project directory
 
 ```bash
-  cd my-project
+  cd Tmu-Map
 ```
 
 Install dependencies
@@ -35,7 +27,7 @@ Install dependencies
 Start the server
 
 ```bash
-  npm run start
+  npm run dev
 ```
 
 
