@@ -5,11 +5,13 @@
 html{
     font-size: 62.5%;
     font-family: 'Inria Sans', sans-serif;
+    
    
 }
 
 body{
     margin: 0;
+    background-color: #ebebeb;
 }
 
 nav ul{ 
@@ -40,12 +42,14 @@ nav{
     padding: 10px 20px;
     
     
+    
 }
 
 .home{
     display: flex;
     align-items: center;
     flex:1;
+    
     
 }
 .title{
@@ -76,5 +80,51 @@ nav{
         justify-content: center;
        
     }
+
+    .main-page{
+        flex-wrap: wrap;
+    
+        
+    }
+
+    
     
   }
+
+
+  /*   Home page      */
+
+.campus-image{
+    max-width: 45%;
+}
+
+.main-page{
+    background-color: white;
+    width:80%;
+    margin: auto;
+    padding: 70px 1px;
+    display: flex;
+    justify-content: center;
+    gap:90px;
+    align-items: center;
+    margin-top: 5vh;
+    font-size: 1.6rem;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  
+}
+
+.mascot-image{
+    max-width:300px;
+    padding-top: 30px;
+
+}
+
+.right-homepage{
+
+    
+    text-align: center;
+   
+  
+}
+

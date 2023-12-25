@@ -1,27 +1,29 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 const Nav = ()=>{
     return(
         <nav>
             <div className="home">
             <img src="./src/assets/TMU.png" alt="Tmu Logo" className="logo"/>
-            <a href="/" className="title">Explore </a>
+            <NavLink  to="/" className="title">Explore </NavLink >
                 
                
             </div>
             <div className="links">
             <ul>
                 <li>
-                    <a href="/explore">Explore</a>
+                    <NavLink  to="/explore">Explore</NavLink >
                 </li>
                 <li>
-                    <a href="/about">About</a>
+                    <NavLink to="/courses">Courses</NavLink>
                 </li>
                 <li>
-                    <a href="/contact">Contact</a>
+                
+                    <NavLink to="/about">About</NavLink>
                 </li>
                 <li>
-                    <a href="/contact">Contact</a>
+                    <NavLink to="/contact">Contact</NavLink>
                 </li>
             
                
