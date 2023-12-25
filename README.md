@@ -4,6 +4,9 @@
 Find places to eat and study at!
 Navigate around TMU and explore!
 
+![image](https://github.com/RayHyper/TMU-Map/assets/74573089/5565f905-d407-4452-a271-11029f119668)
+
+
 ## Run Locally
 
 Clone the project
