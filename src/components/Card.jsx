@@ -1,11 +1,19 @@
-const Card = ()=>{
+const Card = (props)=>{
     return(
           <div className="card">
-            <img src="" alt="" />
+            <div>
+
+            
+            <img src={props.image} alt="" />
+            </div>
             <div className="card-text">
-                  <p></p>
-                  <p></p>
-                  <p></p>
+                  <p>{props.title}</p>
+                  <p>{props.info}</p>
+                  <p>{props.info2}</p>
+                  <div className="card-btn">
+                   <a href="#">button</a>
+                  </div>
+                  
             </div>
           </div>
     )

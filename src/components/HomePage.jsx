@@ -1,10 +1,12 @@
+import Card from "./Card"
+
 
 const HomePage = ()=>{
     return(
         <div className="home-page">
-           
+             
             <div className="main-page">
-
+             
             <img className="campus-image" src="./src/assets/maxresdefault.jpg" alt="tmu image" />
             <div className="right-homepage">
             
@@ -17,10 +19,12 @@ const HomePage = ()=>{
             </div>
 
            </div>
-           <section>
-                <h1>testing</h1>
+           <section className="card-section">
+                <Card image="./src/assets/food.jpg" title="Foods" info="Cheap" info2="24/7"/>
+                <Card image="./src/assets/students.jpg" title="Foods" info="Cheap" info2="24/7"/>
+                <Card image="./src/assets/map.png" title="Foods" info="Cheap" info2="24/7"/>
+               
            </section>
-
            
         </div>
          

@@ -7,6 +7,7 @@ import About from "./components/About"
 import Explore from "./components/Explore"
 import Courses from "./components/Courses"
 import Contact from "./components/Contact"
+import Footer from "./components/Footer"
 import "/src/styles.css"
 
 
@@ -25,6 +26,7 @@ function App() {
         <Route path="/contact" element={<Contact/>}/>
         </Routes>
       </div>
+      <Footer/>
     </BrowserRouter>
   )
 }
