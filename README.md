@@ -4,7 +4,7 @@
 Find places to eat and explore at!
 Navigate around downtown and explore!
 
-
+<img src="./src/assets/thesquare.PNG">
 
 ## Run Locally
 
