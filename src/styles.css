@@ -38,7 +38,7 @@ nav ul a:hover{
 nav{
 
     width:100%;
-    background-color: #1E60B2;
+    background-color: #141010;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -66,7 +66,7 @@ nav{
 .title:hover{
      
      opacity: 0.9;
-    color:#FBAF00;
+    color:#ffffffd0;
 }
 .logo{
     max-width: 100px;
@@ -180,7 +180,7 @@ nav{
 }
 
 .card a{
-    background-color: rgb(0, 195, 255);
+    background-color: rgb(255, 0, 0);
     padding: 10px;
     border-radius: 111px;
     text-decoration: none;
@@ -201,7 +201,7 @@ footer{
     bottom: 0px;
   
     height: 35px;   /* Height of the footer */
-    background: #002d72;
+    background: #000000;
     color:white;
     text-align: center;
     font-weight: 700;

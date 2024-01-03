@@ -10,10 +10,10 @@ const HomePage = ()=>{
             <img className="campus-image" src="./src/assets/maxresdefault.jpg" alt="tmu image" />
             <div className="right-homepage">
             
-                <h1>Welcome To TMU Explore</h1>
+                <h1>Welcome To The Square</h1>
     
         
-                <p>Find your courses, way around campus, food spots and much more!</p>
+                <p>Find shops, way around campus, food spots and much more!</p>
                 <img className="mascot-image" src="./src/assets/mascot.jpg" alt="tmu mascot" />
         
             </div>

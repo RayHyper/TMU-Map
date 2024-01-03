@@ -5,8 +5,9 @@ const Nav = ()=>{
     return(
         <nav>
             <div className="home">
-            <img src="./src/assets/TMU.png" alt="Tmu Logo" className="logo"/>
-            <NavLink  to="/" className="title">Explore </NavLink >
+        
+  
+            <NavLink  to="/" className="title">The Square</NavLink >
                 
                
             </div>
@@ -35,3 +36,5 @@ const Nav = ()=>{
 }
 
 export default Nav;
+
+//  <img src="./src/assets/TMU.png" alt="Tmu Logo" className="logo"/> 
