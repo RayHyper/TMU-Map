@@ -1,6 +1,10 @@
 const Courses = ()=>{
     return(
-         <h2>Courses</h2>
+         <div className="courses">
+            <div className="main-page">
+                <h1>Courses</h1>
+            </div>
+         </div>
     )
 }
 

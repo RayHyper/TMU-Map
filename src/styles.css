@@ -73,7 +73,7 @@ nav{
 
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 1000px) {
     .home {
       justify-content: center;
       
@@ -86,6 +86,7 @@ nav{
 
     .main-page{
         flex-wrap: wrap;
+  
  
     
         
@@ -106,7 +107,7 @@ nav{
     background-color: white;
     width:80%;
     margin: auto;
-    padding: 70px 1px;
+    padding: 70px 5px;
     display: flex;
     justify-content: center;
     gap:90px;
